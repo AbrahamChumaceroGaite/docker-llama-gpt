@@ -17,7 +17,7 @@ services:
       USE_MLOCK: 1
     cap_add:
       - IPC_LOCK
-    command: '/bin/sh /api/run.sh'
+    command: '/bin/sh /app/api/run.sh'
 
   llama-gpt-ui:
     # TODO: Use this image instead of building from source after the next release
